@@ -62,10 +62,18 @@ class _HomePageState extends State<HomePage> {
                                 Container(
                                   height: 100,
                                   width: 100,
-                                  decoration: BoxDecoration(
-                                    image: DecorationImage(
-                                      image: NetworkImage(poke.img),
-                                    ),
+                                  child: FadeInImage(
+                                    placeholder: AssetImage('assets/images/poke.png'),
+                                    image: NetworkImage(poke.img),
+                                    // Container(
+                                    //   height: 100,
+                                    //   width: 100,
+                                    //   decoration: BoxDecoration(
+                                    //     image: DecorationImage(
+                                    //       image: NetworkImage(poke.img),
+                                    //     ),
+                                    //   ),
+                                    // ),
                                   ),
                                 ),
                                 Text(

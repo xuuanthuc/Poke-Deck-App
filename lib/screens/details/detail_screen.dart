@@ -58,17 +58,6 @@ class DetailPoke extends StatelessWidget {
                     ))
                         .toList(),
                   ),
-                  // Text("Next Evolution"),
-                  // Row(
-                  //   mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                  //   children: pokemon.nextEvolution
-                  //       .map((nextEvolutions) => FilterChip(
-                  //     backgroundColor: Colors.green,
-                  //     label: Text(nextEvolutions.name, style: TextStyle(color: Colors.white),),
-                  //     onSelected: (b) {},
-                  //   ))
-                  //       .toList(),
-                  // ),
                 ],
               ),
             ),
